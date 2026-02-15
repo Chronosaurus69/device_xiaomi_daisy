@@ -8,10 +8,10 @@
   }, 
   { 
     "remote"      : "github", 
-    "repository"  : "LizRelDev/vendor_xiaomi_onclite", 
+    "repository"  : "Chronosaurus69/vendor_xiaomi_daisy", 
     "branch"      : "QASSA", 
     "clone-depth" : "1", 
-    "target_path" : "vendor/xiaomi/onclite" 
+    "target_path" : "vendor/xiaomi/daisy" 
   }, 
   { 
     "remote"      : "github", 
