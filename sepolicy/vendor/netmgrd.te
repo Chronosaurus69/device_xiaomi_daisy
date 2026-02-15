@@ -1,0 +1,4 @@
+allow netmgrd netmgrd:capability { sys_admin };
+
+set_prop(netmgrd, vendor_xlat_prop)
+set_prop(netmgrd, vendor_default_prop)

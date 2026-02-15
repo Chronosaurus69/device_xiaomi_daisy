@@ -1,0 +1,2 @@
+get_prop(bluetooth, cnd_vendor_prop)
+get_prop(bluetooth, boottime_prop)
