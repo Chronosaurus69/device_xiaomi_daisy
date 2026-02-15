@@ -18,11 +18,18 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_USES_AOSP_RECOVERY := true
+QASSA_BUILD_TYPE := ByNgantu
+QASSA_MAINTAINER := xDanElisia
+TARGET_FACE_UNLOCK_SUPPORTED := true
+USE_PIXEL_CHARGER := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# GAPPS
+WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
-PRODUCT_NAME := aosp_daisy
+PRODUCT_NAME := qassa_daisy
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2 Lite
 PRODUCT_MANUFACTURER := Xiaomi
