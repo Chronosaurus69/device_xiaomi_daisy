@@ -41,9 +41,9 @@ BOARD_KERNEL_BASE        := 0x80000000
 BOARD_KERNEL_PAGESIZE    := 2048
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sakura
+TARGET_KERNEL_SOURCE := kernel/xiaomi/daisy
 TARGET_KERNEL_VERSION := 4.9
-TARGET_KERNEL_CONFIG := sakura_defconfig
+TARGET_KERNEL_CONFIG := daisy_defconfig
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := daisy
@@ -216,4 +216,4 @@ WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/xiaomi/sakura/BoardConfigVendor.mk
+-include vendor/xiaomi/daisy/BoardConfigVendor.mk
