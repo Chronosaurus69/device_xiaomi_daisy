@@ -22,7 +22,7 @@ QASSA_BUILD_TYPE := ByNgantu
 QASSA_MAINTAINER := xDanElisia
 TARGET_FACE_UNLOCK_SUPPORTED := true
 USE_PIXEL_CHARGER := true
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/qassa/config/common_full_phone.mk)
 
 # GAPPS
 WITH_GAPPS := true
